@@ -61,6 +61,7 @@ a {
 .header {
   padding-top: 30px;
   background: var(--header-bg);
+  height: 800px;  
   /* background: cyan; */
 }
 
