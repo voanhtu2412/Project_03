@@ -498,3 +498,32 @@ a {
   display: flex;
   align-items: center;
 }
+
+/* =============== appointment ===================== */
+.appointment {
+  margin: 85px 0px;
+}
+
+.appointment__inner {
+  padding: 100px 178px;
+  text-align: center;
+}
+
+.appointment__heading::after {
+  display: block;
+  content: "";
+  width: 136px;
+  height: 2px;
+  background: #2e80ce;
+  margin: 18px auto 0;
+  flex-shrink: 0;
+}
+
+.appointment__desc {
+  margin: 18px auto 0;
+  max-width: 617px;
+}
+
+.appointment__btn {
+  margin-top: 38px;
+}
